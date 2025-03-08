@@ -201,3 +201,206 @@
     justify-content: space-between;
   }
 }
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.container{
+    width: 100vw;
+    background-color: #fcfbfb;
+    color: rgb(94, 92, 92);
+}
+.brand{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.links{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  font-size: 14px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 30px;
+}
+.mobile-hero{
+    display: none;
+}
+.landing img {
+  height: 50px;
+}
+.landing {
+  gap: 50px;
+  display: flex;
+  margin: 20px;
+}
+.landing h1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.me {
+  color: rgb(146, 125, 223);
+}
+.login {
+  display: flex;
+  gap: 50px;
+}
+.fa-gear {
+  font-size: 30px;
+}
+.but {
+  border: 20px;
+  background-color: rgb(182, 185, 187);
+  padding: 0 15px;
+}
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 300px;
+  width: 80%;
+  align-items: center;
+  padding: 0 50px;
+  background-color: #fcfbfb;
+  color: rgb(94, 92, 92);
+  font-size: 14px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 30px;
+}
+.fa-dropbox {
+  font-size: 25em;
+  color: rgb(196, 193, 193);
+}
+.lorem {
+  letter-spacing: 1px;
+  font-size: 17px;
+  font-style: normal;
+  line-height: 50px;
+}
+.sat {
+  color: black;
+}
+.nam {
+  line-height: 25px;
+}
+.bus-class {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  width: 80%;
+  align-items: center;
+  padding: 0 50px;
+  background-color: #fcfbfb;
+  color: rgb(94, 92, 92);
+  font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 30px;
+}
+.business {
+  color: rgb(124, 122, 206);
+}
+.sol {
+  font-size: 20px;
+}
+.games {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  width: 100%;
+  align-items: center;
+  padding: 0 50px;
+  background-color: #fcfbfb;
+  color: rgb(94, 92, 92);
+  font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 20px;
+  margin: 0;
+}
+.ipsum{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dolor {
+  margin: 20px;
+  font-size: 30px;
+  color: black;
+}
+.games img {
+  padding-top: 70px;
+  width: 40px;
+}
+.quam {
+  letter-spacing: 1;
+  color: rgb(70, 69, 69);
+  font-size: 15px;
+}
+.hero-nav {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  width: 80%;
+  align-items: center;
+  background-color: #fcfbfb;
+  padding: 0 50px;
+}
+.picture {
+  color: rgb(94, 92, 92);
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 20px;
+  text-align: start;
+}
+.pic {
+  color: black;
+  font-size: 30px;
+  line-height: 60px;
+}
+.bar {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+}
+.words {
+  padding-top: 80px;
+}
+.dev-nav {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  width: 80%;
+  align-items: center;
+  background-color: #fcfbfb;
+  padding-top: 80px;
+}
+.nav-contain {
+  justify-content: center;
+  gap: 20px;
+  width: 80%;
+  align-items: center;
+  background-color: #fcfbfb;
+  padding-top: 80px;
+  margin-left: 300px;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.sad {
+  padding-top: 40px;
+}
+@media (max-width: 992px) {
+  .hero-container {
+    display: none;
+  }
+  .mobile-hero{
+    display: flex;
+    justify-content: space-between;
+  }
+}
