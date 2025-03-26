@@ -36,6 +36,12 @@ let lastname = 'okpaleke'
 console.log(firstname + " " + lastname);
 console.log(`${firstname} ${lastname}`);
 console.log(firstname.concat(" ",lastname));
+console.log(Boolean(10 > 9));
+Boolean(10 > 9);
+Boolean( 100 > 1000);
+
+
+
 
 
 
