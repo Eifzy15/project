@@ -37,8 +37,27 @@ console.log(firstname + " " + lastname);
 console.log(`${firstname} ${lastname}`);
 console.log(firstname.concat(" ",lastname));
 console.log(Boolean(10 > 9));
-Boolean(10 > 9);
-Boolean( 100 > 1000);
+let admin = 'true'
+ if (admin) { console.log( Boolean ('you are an admin'));
+ };
+ let date = new Date();
+ let hours = date.getHours();
+ console.log(hours);
+ if (hours < 12){
+    console.log('good morning');
+    } else if (hours < 16){
+    console.log('good aftertoon');
+    }
+    
+ else if (hours > 20) {
+    console.log('good evening');
+    
+ }
+ 
+ 
+
+
+
 
 
 
